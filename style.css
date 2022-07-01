@@ -1,0 +1,62 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 100px;
+    text-decoration: solid;
+    text-align: center;
+    color: red;
+   
+
+}
+
+
+
+
+
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/17/13/smiley-1873383_1280.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+    
+    
+    
+    
+}
+
+img {
+    float: right;
+  }
+ul{
+    list-style-image: url('sqpurple.gif');
+    align-self: ;
+    color: cyan;
+    list-style-type: square;
+    margin: 50px;
+    padding-inline-start: 20%;
+    text-size-adjust: 40px;
+    list-style-position: outside;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+    
+
+
+
+
+p{
+    word-wrap: break-word;
+   text-align: center; 
+   color: antiquewhite;
+   
+   
+}
+
+
