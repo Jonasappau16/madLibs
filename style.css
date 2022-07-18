@@ -1,12 +1,38 @@
 h1{
-  
-    font-size: 80px;
-    font-weight: 100px;
-    text-decoration: solid;
+    font-size: 18pt;
+    width: fit-content;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: black;
+    border: 5px outset white;
+    padding: 2px 8px 2px 6px;
     text-align: center;
-    color: red;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    
+    
+    
 
+}
+button {
+    font-size: 18pt;
+    width: fit-content;
+    border-radius: 15px;
+    padding-left: 0px;
+    padding-right: 10px;
+    color: white;
+    background-color: black;
+    border: 5px outset white;
+    padding: 2px 8px 2px 6px;
+}
+input {
+    height: 25px;
+    border-radius: 13px;
+    padding-left: 34px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
@@ -16,32 +42,27 @@ h1{
 
 body{
     background-color: rgb(131, 202, 7) !important;
-    background-position-y: -100px ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    /* background-position-y: -100px ; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: 100vh;
     width: 100vw;
     margin: 0;
-    padding: 0;  
+    padding: 0;   */
 }
 
 img {
     float: right;
   }
 ul{
-   
-   line-height: 2em ;
-    color: cyan;
-    list-style-type: square;
-    
     margin: auto;
-    padding-inline-start: 20%;
-  
+    padding-inline-start: 0%;
     list-style-position: inside;
     font-size: xlarge;
     font-weight: bolder;
     text-align: center;
-  
+    list-style-type: none;
+    
     
 }
 h2{
@@ -53,6 +74,9 @@ h2{
 }
     li{
         padding-top: 10px;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         
     }
 
@@ -68,5 +92,12 @@ p{
 
   
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.center {
+    justify-content: center;
 
+}
 
