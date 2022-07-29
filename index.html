@@ -6,47 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;600&family=Gloria+Hallelujah&family=Poppins:wght@100;500;700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="./app.js"></script>
     <title>MAD LIPS </title>
 
    
 </head>
 <body>
+    <section class="page">
     <div class="container">
        
-        <h1>madLibs</h1>
+        <!-- <h1>madLibs</h1> -->
        
-
     <div>
         <form>
+            <h2 style="font-family: 'Gloria Hallelujah', cursive;
+            "> Fill in the blank</h2>
         <ul>
-        <li><input type="text" placeholder = "Adjective" id="1" required></li>
-            <li><input type="text" placeholder="Noun" id="2" required></li>
-            <li><input type="text" placeholder="Noun" id="3" required></li>
-            <li><input type="text" placeholder="Adjective" id="4" required></li>
-            <li><input type="text" placeholder="Plural" id="5" required></li>
-            <li><input type="text" placeholder=" Adjective" id="6" required></li>
-            <li><input type="text" placeholder="Plural Noun" id="7" required></li>
-            <li><input type="text" placeholder ="Plural Noun" id="8" required></li>
+          <li><input type="text" placeholder = "Adjective" id="textOne"></li>
+            <li><input type="text" placeholder="Noun" id="textTwo"></li>
+            <li><input type="text" placeholder="Noun" id="textThree"></li>
+            <li><input type="text" placeholder="Adjective" id="textFour"></li>
+            <li><input type="text" placeholder="Plural" id="textFive"></li>
+            <li><input type="text" placeholder=" Adjective" id="textSix"></li>
+          <li><input type="text" placeholder="Plural Noun" id="textSeven"></li>
+          <li><input type="text" placeholder ="Plural Noun" id="textEight"></li>
             <p> 
-                <li><button type="button" id="button" onclick="createParagraph()"> Submit!</button></li>
+               <li></li> <button class="button"onclick="createParagraph(); return false;"><span>submit</span></button></li>
             </p> 
         </ul>
         </form>
     </div>
 
-    <div>
-        <!-- <p id="answer"></p> -->
-        <p id="answer">I would like to say a few ____ words about the most ____ invention of the twentieth century. I am not referring to <em>____</em>or even to the discovery of <em>____.</em> The most  <strong> important </strong>inverntion,in my opinion ,is sneakers. If it were not for sneakers our <em>____</em> would be dirty,cold and <em>____</em>. Sneankers keep me from skidding if the <em>____</em>are slippery,and when i run ,they keep me from stubbing my <em>____.</em>
-        </p>
-    </div>
+    <p id="answer"></p>
  </div>
 
- <script src ="./app.js"></script>
+</section>
 
 
- <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
+
+
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
 
 </body>
 </html>
